@@ -1,0 +1,18 @@
+GET  http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+   "text": "Fuck some Bitch"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/63dc711b037aae7a6f8b3adc
+
+###
+
+PUT  http://localhost:3001/todo/complete/63dc70d5037aae7a6f8b3ad9
